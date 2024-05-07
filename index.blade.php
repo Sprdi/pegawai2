@@ -47,7 +47,7 @@
                                         <td>{{ $product->jenis_kelamin }}</td>
                                         <td>{{ $product->jabatan }}</td>
                                         <td>{{ $product->mulai_masuk_kerja }}</td>
-                                        <td>{{ $product->jobdesc }}</td>
+                                        <td>{{ $product->job_desc }}</td>
                                         <td class="text-center">
                                             <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('products.destroy', $product->id) }}" method="POST">
                                                 <a href="{{ route('products.show', $product->id) }}" class="btn btn-sm btn-dark">SHOW</a>
